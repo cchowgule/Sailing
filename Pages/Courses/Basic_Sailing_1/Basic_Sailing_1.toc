@@ -1,0 +1,16 @@
+\contentsline {section}{\numberline {1}Outline}{2}{section.1}
+\contentsline {subsection}{\numberline {1.1}Course Goals}{2}{subsection.1.1}
+\contentsline {subsection}{\numberline {1.2}Course Requirements}{2}{subsection.1.2}
+\contentsline {section}{\numberline {2}Schedule}{3}{section.2}
+\contentsline {section}{\numberline {3}Syllabus}{4}{section.3}
+\contentsline {subsection}{\numberline {3.1}Setup}{4}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Briefing}{4}{subsection.3.2}
+\contentsline {subsubsection}{\numberline {3.2.1}Identifying points of sail}{4}{subsubsection.3.2.1}
+\contentsline {subsubsection}{\numberline {3.2.2}Identifying major roles on a Seabird}{5}{subsubsection.3.2.2}
+\contentsline {subsubsection}{\numberline {3.2.3}Steering to a course or sail setting \& trimming to a course or a point of sail}{5}{subsubsection.3.2.3}
+\contentsline {subsubsection}{\numberline {3.2.4}Controlled starts and stops}{5}{subsubsection.3.2.4}
+\contentsline {subsubsection}{\numberline {3.2.5}Basic tacks without getting stuck in iron}{5}{subsubsection.3.2.5}
+\contentsline {subsubsection}{\numberline {3.2.6}Basic gybes while maintaining control of direction and sail}{5}{subsubsection.3.2.6}
+\contentsline {subsubsection}{\numberline {3.2.7}Explain the test and its criteria for passing}{5}{subsubsection.3.2.7}
+\contentsline {section}{\numberline {4}Course Goals}{5}{section.4}
+\contentsline {subsection}{\numberline {4.1}Example}{7}{subsection.4.1}

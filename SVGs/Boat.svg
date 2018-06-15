@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg4555"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   sodipodi:docname="Port_Boat_Jib.svg">
+  <defs
+     id="defs4549" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.86937729"
+     inkscape:cx="369.08073"
+     inkscape:cy="859.31451"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="true"
+     showguides="false"
+     inkscape:guide-bbox="true"
+     inkscape:measure-start="85.2599,978.076"
+     inkscape:measure-end="234.063,700.579"
+     inkscape:snap-center="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="997"
+     inkscape:window-x="0"
+     inkscape:window-y="46"
+     inkscape:window-maximized="1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid5219" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata4552">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g5280">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4613"
+         d="m 35.71875,48.265447 v 31.77623 31.776603 c 19.802086,0 38.31159,-1e-5 55.260249,-7.6e-4 36.789601,-0.001 66.468371,-9.31866 88.937671,-31.775843 C 157.44737,57.584496 127.7686,48.267306 90.978999,48.265829 74.03034,48.265083 55.520836,48.265447 35.71875,48.265447 Z"
+         style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path4613-5"
+         d="m 42.333333,54.138292 v 25.903403 25.903725 c 11.990243,0 23.19782,-1e-5 33.460301,-6.5e-4 22.276293,-8.1e-4 40.246946,-7.596408 53.852196,-25.903103 C 116.04058,61.735012 98.069927,54.139809 75.793634,54.138604 65.531153,54.137996 54.323576,54.138292 42.333333,54.138292 Z"
+         style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <ellipse
+         ry="2.1301708"
+         rx="2.1707304"
+         cy="80.041817"
+         cx="142.89624"
+         id="path5213"
+         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.98500001;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:2.36500001;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 142.30087,81.03611 c -11.03109,29.41903 -44.720543,45.23874 -97.181539,49.79195"
+       id="path5221"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:transform-center-x="48.943934"
+       inkscape:transform-center-y="25.167891" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.39999998;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 171.97916,80.041667 c -7.24553,16.115479 -22.80448,28.298853 -42.33333,37.041663"
+       id="path5282"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:transform-center-x="20.996738"
+       inkscape:transform-center-y="18.567025" />
+  </g>
+</svg>
