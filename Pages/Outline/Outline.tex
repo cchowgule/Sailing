@@ -5,9 +5,15 @@
 \usepackage{caption}
 \usepackage{verbatim}
 \usepackage{multirow}
+\usepackage{ltablex}
+\usepackage{enumitem}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage[parfill]{parskip}
 
 \hypersetup{
-	pdftitle={GYA Training Guideline},
+	pdftitle={Goa Yachting Association Training Outline},
 	pdfauthor={Chaitanya Chowgule},
 	colorlinks=true,
 	linkcolor=blue
@@ -15,8 +21,19 @@
 
 \setcounter{tocdepth}{2}
 
-\title{GYA Training Guideline}
+\title{GYA Training Outline}
 \date{}
+
+\newlist{test}{itemize}{1}
+\setlist[test]{label=$\square$}
+
+\graphicspath{{/media/interchange/WD/Sailing/PNGs/}}
+
+\makeatletter
+\renewcommand{\@seccntformat}[1]{}
+\makeatother
+
+\captionsetup[figure]{labelformat=empty, textfont=it}
 
 \begin{document}
 
@@ -41,39 +58,14 @@ GYA will need to do some groundwork to set this program up. The club will requir
 	\item 15 - 20 m of rope for teaching purposes
 	\item A location where land based courses, briefings, and debriefings can be conducted
 \end{itemize}
-\\
-\\
+
 The club will also have to train all the tindles till at least the level of \hyperlink{grade:intermediate}{intermediate} skipper.
 
 The club will also need to compile a list of emergency phone numbers such as the nearest ambulance service, nearest emergency medical treatment unit, Coastal Police, Coast Guard, etc. Every day the club should send out a WhatsApp message informing members of the day’s weather conditions. When members call to book a boat they should also have to mention what their grade is and the person taking the booking should confirm on the day if they have the requisite grade to skipper the boat that day and what restrictions they will be under.
 
 Training should be free (except for boat rental charges) and conducted by volunteer members. Hiring a coach or paying for training will lessen the incentive for new members and training by experienced members will help build relationships between members and increase their investment in the club. Training consists of some number of classes taken by a trained member, the participant can then practice for as long as they like, then they take a test with a trained member.
 
-\newpage
-
-\begin{landscape}
-
-Keeping track of members and their grades can be done through a ledger with the following columns:
-\\
-\\
-\label{tab:ledger}
-\begin{tabularx}{670pt}{|X|X|X|X|X|X|X|X|}
-	\hline
-	Name & & & Trainee & & Beginner & & Intermediate \\
-	\hline
-	& Rigging and \newline Land Skills & Basic \newline Sailing 1 & Safety \newline Procedures & Basic \newline Sailing 2 & Intermediate Sailing & Spinnaker Drill & Advanced Sailing \\
-	& & & & & & & \\
-	& Date \& \newline Signature &  Date \& \newline Signature & Date \& \newline Signature & Date \& \newline Signature & Date \& \newline Signature & Date \& \newline Signature & Date \& \newline Signature \\
-	\hline
-	& & & & & & & \\
-\end{tabularx}
-\\
-\\
-The member administering the test signs and dates when the member taking the test has passed.
-
-\end{landscape}
-
-New members with sailing experience do not need to start at the beginning. After discussing their experience with an experienced member they can skip as many grades as their experience allows. They must do at least the tests for the courses to acheive an \hyperlink{grade:intermediate}{Intermediate Grade}.
+New members with sailing experience do not need to start at the beginning. After discussing their experience with an experienced member they can skip as many grades as their experience allows. They must do at least the tests for the courses to achieve an \hyperlink{grade:intermediate}{Intermediate Grade}.
 
 The club should have every member sign an indemnifying document clearing the club of any liability in the event of material damage, injury, or death.
 
@@ -85,7 +77,25 @@ When the club purchases or is given more boats new skipper grades can be introdu
 
 Having tindles accompany all members when they take out a boat or insist that members wear life jackets while on a Seabird is really a waste of the tindles and doesn’t actually make the chance of something going wrong any less. What the club needs is a way of making sure that members taking boats out are, at the very least, trained in safety procedures and are only taking the boat out in conditions that they are capable of sailing in.
 
-\newpage
+\begin{landscape}
+
+Keeping track of members and their grades can be done through a ledger with the following columns:
+
+\label{tab:ledger}
+\begin{tabularx}{670pt}{|X|X|X|X|X|X|X|X|}
+	\hline
+	Name & & & Trainee & & Beginner & & Intermediate \\
+	\hline
+	& Rigging and \newline Land Skills & Basic \newline Sailing 1 & Safety \newline Procedures & Basic \newline Sailing 2 & Intermediate Sailing & Spinnaker Drill & Advanced Sailing \\
+	& & & & & & & \\
+	& Date \& \newline Signature &  Date \& \newline Signature & Date \& \newline Signature & Date \& \newline Signature & Date \& \newline Signature & Date \& \newline Signature & Date \& \newline Signature \\
+	\hline
+	& & & & & & & \\
+\end{tabularx}
+
+The member administering the test signs and dates when the member taking the test has passed.
+
+\end{landscape}
 
 \section{Weather Conditions} \label{sec:weather conditions}
 
@@ -101,8 +111,7 @@ Having tindles accompany all members when they take out a boat or insist that me
 	\hypertarget{condition:heavy day}{Heavy Day} & \textless 24 kts & \textless 20 kts \\
 	\hline
 \end{tabularx}
-\\
-\\
+
 Restrictions and requirements are based on the day’s weather conditions. Each condition can be given a name or a colour to make it easier to identify.
 
 \newpage
@@ -213,14 +222,14 @@ Each course can have a maximum of 4 participants per session.
 \end{tabular}
 
 \begin{itemize}
-	\item 30 - 45 min. covering all skills. Each participant must complete a man-oveboard drill at the helm.
+	\item 30 - 45 min. covering all skills. Each participant must complete a man-overboard drill at the helm.
 \end{itemize}
 
 \subsection{Basic Sailing 2} \label{subsec:basic sailing 2}
 
 \label{tab:basic sailing 2:requirements}
 \begin{tabular}{ll}
-	Requirements: & \hyperlink{condtion:light day}{Light Day} \\
+	Requirements: & \hyperlink{condition:light day}{Light Day} \\
 	& \hyperlink{grade:trainee}{Trainee Grade} \\
 	& \nameref{subsec:safety procedures} \\
 \end{tabular}
@@ -244,8 +253,6 @@ Each course can have a maximum of 4 participants per session.
 	\item 30 - 45 mins. covering all skills. Each participant must complete the windward leeward course 3 times at the helm.
 \end{itemize}
 
-\newpage
-
 \subsection{Intermediate Sailing} \label{subsec:intermediate sailing}
 
 \label{tab:intermediate sailing:requirements}
@@ -258,7 +265,7 @@ Each course can have a maximum of 4 participants per session.
 
 \begin{itemize}
 	\item 30 min. planning a 3 hr. sail based on wind and tide conditions and a briefing of all skills to be covered on the water.
-	\item 3 hr. session on the boat consisting of trimming and boat handling and keeping a course with, against, and accross the tide.
+	\item 3 hr. session on the boat consisting of trimming and boat handling and keeping a course with, against, and across the tide.
 	\item 30 min. debrief on land going over all skills learnt that day.
 \end{itemize}
 
@@ -364,4 +371,3 @@ Each course can have a maximum of 6 participants per session.
 \end{itemize}
 
 \end{document}
-
