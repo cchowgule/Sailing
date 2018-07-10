@@ -11,6 +11,7 @@
 \usepackage{amssymb}
 \usepackage{graphicx}
 \usepackage{float}
+\usepackage[parfill]{parskip}
 
 \hypersetup{
 	pdftitle={Basic Sailng 1 - Course Material},
@@ -30,6 +31,12 @@
 
 \graphicspath{{/media/interchange/WD/Sailing/PNGs/}}
 
+\makeatletter
+\renewcommand{\@seccntformat}[1]{}
+\makeatother
+
+\captionsetup[figure]{labelformat=empty}
+
 \begin{document}
 
 \maketitle
@@ -42,7 +49,7 @@
 
 \section{Outline} \label{sec:outline}
 
-This course aims to introduce complete novices to the most fundimental sailing techniques such as steering, sail trim, tacks, and gybes. It is perhaps the most important as without these fundimentals future courses will be much harder to teach. The aim is to build a strong base and ensure that new sailors do not develop bad habbits that may make it harder for them to sail in more challenging conditions. The course will be conducted on a reach-to-reach course about 8 boatlengths long.
+This course aims to introduce complete novices to the most fundamental sailing techniques such as steering, sail trim, tacks, and gybes. It is perhaps the most important as without these fundamentals future courses will be much harder to teach. The aim is to build a strong base and ensure that new sailors do not develop bad habits that may make it harder for them to sail in more challenging conditions. The course will be conducted on a reach-to-reach course about 8 boat lengths long.
 
 \subsection{Course Goals} \label{subsec:course goals}
 
@@ -64,7 +71,7 @@ Participants should leave the course having mastered:
 
 \label{tab:requirements}
 \begin{tabular}{rl}
-	Condtions: & \hyperlink{condition:light}{Light Day} \\
+	Conditions: & Light Day \\
 	Grade: & None \\
 \end{tabular}
 
@@ -77,13 +84,13 @@ Participants should leave the course having mastered:
 	\hline
 	\textbf{Time} & \textbf{Activity} \\
 	\hline
-	25 mins. & Setup for course before participants arrive. Sign out all materials needed for the course and make sure they are in working order. Load materials needed on the water on the powerboat and confirm it is fueled. Set the training course. \\
+	25 mins. & Setup for course before participants arrive. Sign out all materials needed for the course and make sure they are in working order. Load materials needed on the water on the powerboat and confirm it is fuelled. Set the training course. \\
 	\hline
 	30 mins. & Briefing: \\
-	& Get to know the paticipants. Names, when the did the previous courses, etc. \\
+	& Get to know the participants. Names, when the did the previous courses, etc. \\
 	& Refresh skills and info from previous courses relevant to this course. \\
 	& List all skills to be covered today and go over the sailing area and the course. \\
-	& Go through sklls individually paying careful attention to common mistakes and how to correct them. \\
+	& Go through skills individually paying careful attention to common mistakes and how to correct them. \\
 	& Explain the test and its criteria for passing. \\
 	\hline
 	10 mins. & Head out to the boat, rig up and sail to the training course. \\
@@ -92,7 +99,7 @@ Participants should leave the course having mastered:
 	\hline
 	30 mins. & Conduct the test. \\
 	\hline
-	15 mins. & Return to the mooring. Have the tindle pick up the training course. \\
+	15 mins. & Return to the mooring. Have the Tindle pick up the training course. \\
 	\hline
 	30 mins. & Debriefing: \\
 	& Recap all skills covered on the water \\
@@ -101,7 +108,7 @@ Participants should leave the course having mastered:
 	10 mins. & Clear the powerboat and briefing area. Return all items and sign them back in. \\
 	\hline
 \end{tabularx}
-\\
+
 Total time: 4 hrs. 30 mins.
 
 \newpage
@@ -111,7 +118,7 @@ Total time: 4 hrs. 30 mins.
 \subsection{Setup} \label{subsec:setup}
 
 Before the participants arrive check that the weather conditions acceptable for the course and decide on the sailing area for the day.
-\\
+
 Sign out the following:
 
 \label{list:materials}
@@ -120,10 +127,10 @@ Sign out the following:
 	\item 2 marks with anchors and anchor lines
 	\item Wind indicator
 \end{itemize}
-\\
+
 Load the marks on to the powerboat and ensure there is enough fuel for the day.
 
-Go out with the tindle and set the training course.
+Go out with the Tindle and set the training course.
 
 Set up the whiteboard for the briefing.
 
@@ -135,7 +142,7 @@ On the whiteboard illustrate where on the river the course will be taking place,
 
 Start by refreshing material from previous courses. Go over finding the wind direction, estimating wind speed, parts of the boat and their names, leaving and coming to the mooring, etc., briefly.
 
-List out all the skills that will be covered during the course, very briefly exapanding on each one.
+List out all the skills that will be covered during the course, very briefly expanding on each one.
 
 Go down the list of skills explaining the salient points of each one:
 
@@ -145,7 +152,7 @@ Explain the basics of luffing up and bearing away. Emphasise the need to make sm
 
 \subsubsection{Identifying points of sail} \label{subsubsec:points of sail}
 
-Using the points of sail diagram, illustrate the various points of sail and their names. Describe in general how the sails are loosened as the boat is steered away from the wind. Go over the no go zone and how to sail upwind by going from tack to tack. Using the diagram explain how tacks take the bow throuh the wind causing the sail to change sides and gybes take the stern through the wind with the same result. Then add in an illustration of the days course showing how the marks will create a reach-to-reach course. Point out where the boat will have to tack or gybe to round the course.
+Using the points of sail diagram, illustrate the various points of sail and their names. Describe in general how the sails are loosened as the boat is steered away from the wind. Go over the no go zone and how to sail upwind by going from tack to tack. Using the diagram explain how tacks take the bow through the wind causing the sail to change sides and gybes take the stern through the wind with the same result. Then add in an illustration of the days course showing how the marks will create a reach-to-reach course. Point out where the boat will have to tack or gybe to round the course.
 
 \label{fig:points of sail}
 \begin{figure}[H]
@@ -159,6 +166,13 @@ Using the points of sail diagram, illustrate the various points of sail and thei
 Transition to the roles on the Seabird and how the changes in course will be handled by each. Start with the helm, the main sheet trimmer, the person responsible for the runners and centreboard and finally the jib trimmer.
 
 Draw and illustration of the Seabird from a top view and mark where each person should be sitting. Detail how they should cross the boat during a tack or a gybe.
+
+\label{fig:seating}
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.75]{Seating}
+	\caption{Seating Positions}
+\end{figure}
 
 \subsubsection{Steering to a course or sail setting \& trimming to a course or a point of sail} \label{subsubsec:steering and trimming}
 
@@ -191,7 +205,6 @@ Go over the following tacking drill asking the participants to say the steps out
 	& \\
 	\textbf{5.} & \textbf{Helm:} Once the boat is pointing at the stationary point, centre the tiller and cross to the other side of the boat. \\
 \end{tabularx}
-\\
 
 Stress the need to back the jib and keep the tiller at the extreme till the boat completes the tack to avoid ending up in irons, and to cross to the other side of the boat facing forward so as to be able to see where the boat is going through the tack.
 
@@ -218,7 +231,7 @@ Go over the following gybing drill asking the participants to say the steps out 
 	& \\
 	\textbf{5.} & \textbf{Helm:} Once the boat is pointing at the stationary point, centre the tiller and cross to the other side of the boat. \\
 \end{tabularx}
-\\
+
 Remind participants to focus on controlling the main sail as it crosses the boat and stopping the turn as soon as the new course is reached.
 
 \subsubsection{Explain the test and its criteria for passing} \label{subsubsec:test}
@@ -227,9 +240,16 @@ Explain to participants that in order to pass, each of them must perform the fol
 
 \begin{itemize}
 		\item Perform 2 tacks from port to starboard and 2 tacks from starboard to port, leaving them with sufficient boat speed, and without getting stuck in irons.
-		\item Perform 2 gybes from port to starboard and 2 gybes from starboard to port, maintaining control of the boat by stopping the gybe at the appropriate heading, and having their mainsheet trimmer correctly guide the boom accross the boat.
-		\item Complete the reach-to-reach course 4 times, leaving the marks to port twice and to starboard twice. Participants must pass each mark within 2 boatlengths of them.
+		\item Perform 2 gybes from port to starboard and 2 gybes from starboard to port, maintaining control of the boat by stopping the gybe at the appropriate heading, and having their mainsheet trimmer correctly guide the boom across the boat.
+		\item Complete the reach-to-reach course 4 times, leaving the marks to port twice and to starboard twice. Participants must pass each mark within 2 boat lengths of them.
 \end{itemize}
+
+\label{fig:test course}
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.75]{BS1_Course}
+	\caption{Test Course}
+\end{figure}
 
 \subsection{On the Water} \label{subsec:on the water}
 
@@ -247,7 +267,7 @@ For those whom you feel would benefit from practice, ask them to come back at th
 
 \subsection{Debrief} \label{subsec: Debrief}
 
-Once the on water training and test is completed, ask the tindle to pick up the training course while you head back to the mooring with the participants and unrig the boat.
+Once the on water training and test is completed, ask the Tindle to pick up the training course while you head back to the mooring with the participants and unrig the boat.
 
 Once back on shore begin the debrief.
 
@@ -257,7 +277,7 @@ For those who need practice before taking the test, explain how they can schedul
 
 \subsection{Packing Up} \label{subsec:packing up}
 
-Clear all the equipment from the powerboat. Rinse down the marks, anchorlines, and anchors. Clean the whiteboard. Sign all items checked out back into the store and sign for the fuel used that day.
+Clear all the equipment from the powerboat. Rinse down the marks, anchor lines, and anchors. Clean the whiteboard. Sign all items checked out back into the store and sign for the fuel used that day.
 
 \newpage
 \thispagestyle{empty}
